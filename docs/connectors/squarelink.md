@@ -5,9 +5,11 @@
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/squarelink-connector`
+
+`yarn add @jasoons/squarelink-connector`
 
 ## Arguments
+
 ```typescript
 clientId: string
 networks: (number | { chainId: number; [key: string]: any })[]
@@ -15,8 +17,9 @@ options?: any
 ```
 
 ## Example
+
 ```javascript
-import { SquarelinkConnector } from '@web3-react/squarelink-connector'
+import { SquarelinkConnector } from '@jasoons/squarelink-connector'
 
 const squarelink = new SquarelinkConnector({
   clientId: '...',

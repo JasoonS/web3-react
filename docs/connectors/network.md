@@ -5,9 +5,11 @@
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/network-connector`
+
+`yarn add @jasoons/network-connector`
 
 ## Arguments
+
 ```typescript
 urls: { [chainId: number]: string }
 defaultChainId?: number
@@ -16,8 +18,9 @@ requestTimeoutMs?: number
 ```
 
 ## Example
+
 ```javascript
-import { NetworkConnector } from '@web3-react/network-connector'
+import { NetworkConnector } from '@jasoons/network-connector'
 
 const network = new NetworkConnector({ urls: { 1: RPC_URLS[1] } })
 ```

@@ -5,9 +5,11 @@
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/ledger-connector`
+
+`yarn add @jasoons/ledger-connector`
 
 ## Arguments
+
 ```typescript
 chainId: number
 url: string
@@ -18,8 +20,9 @@ baseDerivationPath?: string
 ```
 
 ## Example
+
 ```javascript
-import { LedgerConnector } from '@web3-react/ledger-connector'
+import { LedgerConnector } from '@jasoons/ledger-connector'
 
 const ledger = new LedgerConnector({ chainId: 1, url: '...' })
 ```

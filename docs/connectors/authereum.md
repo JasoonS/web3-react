@@ -5,16 +5,19 @@
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/authereum-connector`
+
+`yarn add @jasoons/authereum-connector`
 
 ## Connector Arguments
+
 ```typescript
 chainId: number
 ```
 
 ## Example
+
 ```javascript
-import { AuthereumConnector } from '@web3-react/authereum-connector'
+import { AuthereumConnector } from '@jasoons/authereum-connector'
 
 const authereum = new AuthereumConnector({ chainId: 42 })
 ```

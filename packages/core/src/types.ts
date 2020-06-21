@@ -1,4 +1,4 @@
-import { AbstractConnector } from '@web3-react/abstract-connector'
+import { AbstractConnector } from '@jasoons/abstract-connector'
 
 export interface Web3ReactManagerFunctions {
   activate: (connector: AbstractConnector, onError?: (error: Error) => void, throwErrors?: boolean) => Promise<void>

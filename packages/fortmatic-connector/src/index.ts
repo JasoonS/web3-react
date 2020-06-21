@@ -1,5 +1,5 @@
-import { ConnectorUpdate } from '@web3-react/types'
-import { AbstractConnector } from '@web3-react/abstract-connector'
+import { ConnectorUpdate } from '@jasoons/types'
+import { AbstractConnector } from '@jasoons/abstract-connector'
 import invariant from 'tiny-invariant'
 
 const chainIdToNetwork: { [network: number]: string } = {

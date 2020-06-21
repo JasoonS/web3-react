@@ -1520,14 +1520,14 @@
 
 "@jasoons/abstract-connector@^6.0.2", "@jasoons/abstract-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/abstract-connector/-/abstract-connector-6.0.2.tgz#df4b5af805364283fdfb54e1174ced537783d790"
+  resolved "https://registry.yarnpkg.com/@jasoons/abstract-connector/-/abstract-connector-6.0.2.tgz#df4b5af805364283fdfb54e1174ced537783d790"
   integrity sha512-0Jl+ahg0Iub/Xfnmm9aMiaNY0IO61H+gItAvHMsC76GDxmfns5gq8qSXBJSXbWGpoy/TxufACzETT8fGDtMzDQ==
   dependencies:
     "@jasoons/types" "^6.0.2"
 
 "@jasoons/authereum-connector@latest":
   version "6.0.6"
-  resolved "https://registry.yarnpkg.com/@web3-react/authereum-connector/-/authereum-connector-6.0.6.tgz#1d4f116a9de93e781f505b0fc06467535cb94532"
+  resolved "https://registry.yarnpkg.com/@jasoons/authereum-connector/-/authereum-connector-6.0.6.tgz#1d4f116a9de93e781f505b0fc06467535cb94532"
   integrity sha512-2dEpsrH6rlCI/GcEQKXaXiJtwGusXvcp3mukpahGnLGgMc8mC9hhWRGaUBT1OXQ+gQvAA0fenM3+1dfpqpPs0w==
   dependencies:
     "@jasoons/abstract-connector" "^6.0.2"
@@ -1536,7 +1536,7 @@
 
 "@jasoons/core@latest":
   version "6.0.6"
-  resolved "https://registry.yarnpkg.com/@web3-react/core/-/core-6.0.6.tgz#d45c2658a0be6f54657d5f7f0511caf777eed9ec"
+  resolved "https://registry.yarnpkg.com/@jasoons/core/-/core-6.0.6.tgz#d45c2658a0be6f54657d5f7f0511caf777eed9ec"
   integrity sha512-J+bZ9lCZM3hU5rKdnHrT4tLQ0tp6zt0HEKOIaeGR5zpCMcnURyrYEjp5menGVVcAhuNKwKhDvijjI2gj8EPxCw==
   dependencies:
     "@ethersproject/keccak256" "^5.0.0-beta.130"
@@ -1546,7 +1546,7 @@
 
 "@jasoons/fortmatic-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/fortmatic-connector/-/fortmatic-connector-6.0.2.tgz#ba766a8c76fc4ddfec42efaed44f587812a35d35"
+  resolved "https://registry.yarnpkg.com/@jasoons/fortmatic-connector/-/fortmatic-connector-6.0.2.tgz#ba766a8c76fc4ddfec42efaed44f587812a35d35"
   integrity sha512-G/HVA4v6Ivj9zoGnZ/XEBr3DrzUSu6+0fCU7b6eYKCCpiHqc2DE4j1RpmJkV0ODyylxvZzv5OmQmP/MGSG2aJg==
   dependencies:
     "@jasoons/abstract-connector" "^6.0.2"
@@ -1556,7 +1556,7 @@
 
 "@jasoons/frame-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/frame-connector/-/frame-connector-6.0.2.tgz#f218d5dac53e1654666e232e42c3eddec25ff5e8"
+  resolved "https://registry.yarnpkg.com/@jasoons/frame-connector/-/frame-connector-6.0.2.tgz#f218d5dac53e1654666e232e42c3eddec25ff5e8"
   integrity sha512-p7Bk/ht6+jPnekOzv0uzbScqhcLTgeiDFUcbEIJ2JUsC8MSlUO2s2vig18ohJkNQSIrQQaA3F1/4PPVv9Li9eg==
   dependencies:
     "@jasoons/abstract-connector" "^6.0.2"
@@ -1566,7 +1566,7 @@
 
 "@jasoons/injected-connector@latest":
   version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@web3-react/injected-connector/-/injected-connector-6.0.3.tgz#48b615c95129c63a1c20fb292534836c4059103e"
+  resolved "https://registry.yarnpkg.com/@jasoons/injected-connector/-/injected-connector-6.0.3.tgz#48b615c95129c63a1c20fb292534836c4059103e"
   integrity sha512-4mjafFRDewgSIdvlzrgDTWsKmOstkYo20Bor+OEh3XFWPxQ4Mk/CMBOQwzaehcxP1qV06mTWg+GDwoKI9zxNpw==
   dependencies:
     "@jasoons/abstract-connector" "^6.0.2"
@@ -1575,7 +1575,7 @@
 
 "@jasoons/ledger-connector@latest":
   version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@web3-react/ledger-connector/-/ledger-connector-6.0.4.tgz#87628f86b78720af212b263065d59496849ef470"
+  resolved "https://registry.yarnpkg.com/@jasoons/ledger-connector/-/ledger-connector-6.0.4.tgz#87628f86b78720af212b263065d59496849ef470"
   integrity sha512-ItZ7GUtlMrbmH82D5I2qz+YvLnFMTpyzKu47OIg6NGpmw0nPnwjNQcSfU+4/kf4q5Lq6Asgnxym96CePLBJZeg==
   dependencies:
     "@0x/subproviders" "^5.0.4"
@@ -1584,7 +1584,7 @@
 
 "@jasoons/network-connector@latest":
   version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@web3-react/network-connector/-/network-connector-6.0.4.tgz#714ca47c0c5b67ec13c58448db0c295b8ccbc424"
+  resolved "https://registry.yarnpkg.com/@jasoons/network-connector/-/network-connector-6.0.4.tgz#714ca47c0c5b67ec13c58448db0c295b8ccbc424"
   integrity sha512-E6kudr/2J/8vyls9sxl3/Zg7Eg/Ki9O+PNkGzD0+L0VXuE04L5wL1o8VvwYFwHVeePjVmvacPi8gjMryDn0mZQ==
   dependencies:
     "@0x/subproviders" "^5.0.4"
@@ -1594,7 +1594,7 @@
 
 "@jasoons/portis-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/portis-connector/-/portis-connector-6.0.2.tgz#934e9cc02f0735ddcbf08fde963e8d639a28638b"
+  resolved "https://registry.yarnpkg.com/@jasoons/portis-connector/-/portis-connector-6.0.2.tgz#934e9cc02f0735ddcbf08fde963e8d639a28638b"
   integrity sha512-oEdvyyqiFyj0KSHBTKDOLtYDmTQOeFlUHAx4Iwv2DqMB3ogcxEXSZUBYnzGVWTwEHFCUcSsP4YpVH+LJwsHkOA==
   dependencies:
     "@portis/web3" "^2.0.0-beta.54"
@@ -1604,7 +1604,7 @@
 
 "@jasoons/squarelink-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/squarelink-connector/-/squarelink-connector-6.0.2.tgz#0d0461b4d1e92ac10cd0127d2d2b44e261badea1"
+  resolved "https://registry.yarnpkg.com/@jasoons/squarelink-connector/-/squarelink-connector-6.0.2.tgz#0d0461b4d1e92ac10cd0127d2d2b44e261badea1"
   integrity sha512-bjkShKNZdRsEVJrxa1h+LssNQcZB8GLBWbVP7k+cDkgPU+bikyTkFng5MCGPPo1HVKwl4bROII7bWgHeWVJxXg==
   dependencies:
     "@jasoons/abstract-connector" "^6.0.2"
@@ -1614,7 +1614,7 @@
 
 "@jasoons/torus-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/torus-connector/-/torus-connector-6.0.2.tgz#468b712d195b100600dcace4da5ebeee856f2c94"
+  resolved "https://registry.yarnpkg.com/@jasoons/torus-connector/-/torus-connector-6.0.2.tgz#468b712d195b100600dcace4da5ebeee856f2c94"
   integrity sha512-nKLz6xe70hPKiqdmnBK9N39FEKD41swoeGuHPO3niThR29JNeusoZxhzgBqrr0SoCu/D5ODFyqTW8XpzcuHe/g==
   dependencies:
     "@toruslabs/torus-embed" "^0.2.10"
@@ -1623,7 +1623,7 @@
 
 "@jasoons/trezor-connector@latest":
   version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@web3-react/trezor-connector/-/trezor-connector-6.0.4.tgz#a66508b083fdf333a051188bbaec0f0f6bc8a4b6"
+  resolved "https://registry.yarnpkg.com/@jasoons/trezor-connector/-/trezor-connector-6.0.4.tgz#a66508b083fdf333a051188bbaec0f0f6bc8a4b6"
   integrity sha512-XIF0lk7EFq37oN+njFKZ2M501YF93LNjHYy7C08zK0ZGPvPQ60ITKAUMRd+Vt6VNZG9T5VBozxu4xXLIuoUnOw==
   dependencies:
     "@0x/subproviders" "^5.0.4"
@@ -1633,12 +1633,12 @@
 
 "@jasoons/types@^6.0.2":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-6.0.2.tgz#fe451383cc6fd88128c7608e3cdfe3b0c42caff3"
+  resolved "https://registry.yarnpkg.com/@jasoons/types/-/types-6.0.2.tgz#fe451383cc6fd88128c7608e3cdfe3b0c42caff3"
   integrity sha512-zDPcjWdYONgpL6o3SQPMQE+pIDBcIsWMP/FqFRIFmPjB9h+ONHXNID74pf3h++gZGfIkl9cDtTvF8kQudn5Lew==
 
 "@jasoons/walletconnect-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/walletconnect-connector/-/walletconnect-connector-6.0.2.tgz#4f43528dc6dbf90f0464dc64a45a2a8b5b701326"
+  resolved "https://registry.yarnpkg.com/@jasoons/walletconnect-connector/-/walletconnect-connector-6.0.2.tgz#4f43528dc6dbf90f0464dc64a45a2a8b5b701326"
   integrity sha512-iiifkFxTLBZ8p0cXZyniq5LJcvkGqZ8KOl/kjEFOlJ90aQII+0zASKcb375bX07H+qBePcYqqIPcfaAMtZM8bw==
   dependencies:
     "@walletconnect/web3-provider" "^1.0.0-beta.39"
@@ -1648,7 +1648,7 @@
 
 "@jasoons/walletlink-connector@latest":
   version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-react/walletlink-connector/-/walletlink-connector-6.0.2.tgz#8936ae1c7f9d41f97edb40f679ef73e81d1fe414"
+  resolved "https://registry.yarnpkg.com/@jasoons/walletlink-connector/-/walletlink-connector-6.0.2.tgz#8936ae1c7f9d41f97edb40f679ef73e81d1fe414"
   integrity sha512-oUB5qVDOl7wUfG2Vh0V+AqeHk4tVXRinprOeT9Pku3XevpPqpF4s/3nkAFQUXeOTi4SXZ+74aUTKEEveMJzZIQ==
   dependencies:
     "@jasoons/abstract-connector" "^6.0.2"

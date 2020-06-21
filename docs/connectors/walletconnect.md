@@ -11,9 +11,11 @@
     - [Example](#example-2)
 
 ## Install
-`yarn add @web3-react/walletconnect-connector`
+
+`yarn add @jasoons/walletconnect-connector`
 
 ## Arguments
+
 ```typescript
 rpc: { [chainId: number]: string }
 bridge?: string
@@ -22,8 +24,9 @@ pollingInterval?: number
 ```
 
 ## Example
+
 ```javascript
-import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
+import { WalletConnectConnector } from '@jasoons/walletconnect-connector'
 
 const walletconnect = new WalletConnectConnector({ rpc: { 1: '...' } })
 ```
@@ -33,10 +36,11 @@ const walletconnect = new WalletConnectConnector({ rpc: { 1: '...' } })
 ### URI_AVAILABLE
 
 #### Example
-```javascript
-import { URI_AVAILABLE } from '@web3-react/walletconnect-connector'
 
-function Component () {
+```javascript
+import { URI_AVAILABLE } from '@jasoons/walletconnect-connector'
+
+function Component() {
   useEffect(() => {
     walletconnect.on(URI_AVAILABLE, uri => {
       // ...
@@ -51,10 +55,11 @@ function Component () {
 ### UserRejectedRequestError
 
 #### Example
-```javascript
-import { UserRejectedRequestError } from '@web3-react/walletconnect-connector'
 
-function Component () {
+```javascript
+import { UserRejectedRequestError } from '@jasoons/walletconnect-connector'
+
+function Component() {
   const { error } = useWeb3React()
   const isUserRejectedRequestError = error instanceof UserRejectedRequestError
   // ...

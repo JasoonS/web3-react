@@ -5,9 +5,11 @@
 - [Example](#example)
 
 ## Install
-`yarn add @web3-react/portis-connector`
+
+`yarn add @jasoons/portis-connector`
 
 ## Arguments
+
 ```typescript
 dAppId: string
 networks: (number | { chainId: string; [key: string]: any })[]
@@ -15,8 +17,9 @@ config?: any
 ```
 
 ## Example
+
 ```javascript
-import { PortisConnector } from '@web3-react/portis-connector'
+import { PortisConnector } from '@jasoons/portis-connector'
 
 const portis = new PortisConnector({ dAppId: '...', networks: [1, 100] })
 ```

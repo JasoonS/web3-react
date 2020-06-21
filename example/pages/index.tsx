@@ -1,15 +1,15 @@
 import React from 'react'
-import { AbstractConnector } from '@web3-react/abstract-connector'
-import { Web3ReactProvider, useWeb3React, UnsupportedChainIdError } from '@web3-react/core'
+import { AbstractConnector } from '@jasoons/abstract-connector'
+import { Web3ReactProvider, useWeb3React, UnsupportedChainIdError } from '@jasoons/core'
 import {
   NoEthereumProviderError,
   UserRejectedRequestError as UserRejectedRequestErrorInjected
-} from '@web3-react/injected-connector'
+} from '@jasoons/injected-connector'
 import {
   URI_AVAILABLE,
   UserRejectedRequestError as UserRejectedRequestErrorWalletConnect
-} from '@web3-react/walletconnect-connector'
-import { UserRejectedRequestError as UserRejectedRequestErrorFrame } from '@web3-react/frame-connector'
+} from '@jasoons/walletconnect-connector'
+import { UserRejectedRequestError as UserRejectedRequestErrorFrame } from '@jasoons/frame-connector'
 import { Web3Provider } from '@ethersproject/providers'
 import { formatEther } from '@ethersproject/units'
 

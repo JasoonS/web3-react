@@ -8,16 +8,19 @@
     - [Example](#example-1)
 
 ## Install
-`yarn add @web3-react/frame-connector`
+
+`yarn add @jasoons/frame-connector`
 
 ## Arguments
+
 ```typescript
 supportedChainIds: number[]
 ```
 
 ## Example
+
 ```javascript
-import { FrameConnector } from '@web3-react/frame-connector'
+import { FrameConnector } from '@jasoons/frame-connector'
 
 const frame = new FrameConnector({ supportedChainIds: [1] })
 ```
@@ -27,10 +30,11 @@ const frame = new FrameConnector({ supportedChainIds: [1] })
 ### UserRejectedRequestError
 
 #### Example
-```javascript
-import { UserRejectedRequestError } from '@web3-react/frame-connector'
 
-function Component () {
+```javascript
+import { UserRejectedRequestError } from '@jasoons/frame-connector'
+
+function Component() {
   const { error } = useWeb3React()
   const isUserRejectedRequestError = error instanceof UserRejectedRequestError
   // ...
