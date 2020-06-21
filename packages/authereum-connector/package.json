@@ -1,5 +1,5 @@
 {
-  "name": "@web3-react/authereum-connector",
+  "name": "@jasoons/authereum-connector",
   "publishConfig": {
     "access": "public"
   },
@@ -35,8 +35,8 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@web3-react/abstract-connector": "^6.0.7",
-    "@web3-react/types": "^6.0.7",
+    "@jasoons/abstract-connector": "^6.0.7",
+    "@jasoons/types": "^6.0.7",
     "authereum": "^0.0.4-beta.93"
   },
   "license": "GPL-3.0-or-later"

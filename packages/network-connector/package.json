@@ -1,5 +1,5 @@
 {
-  "name": "@web3-react/network-connector",
+  "name": "@jasoons/network-connector",
   "publishConfig": {
     "access": "public"
   },
@@ -35,8 +35,8 @@
   },
   "dependencies": {
     "@0x/subproviders": "^5.0.4",
-    "@web3-react/abstract-connector": "^6.0.7",
-    "@web3-react/types": "^6.0.7",
+    "@jasoons/abstract-connector": "^6.0.7",
+    "@jasoons/types": "^6.0.7",
     "tiny-invariant": "^1.0.6"
   },
   "license": "GPL-3.0-or-later"
